@@ -1,0 +1,36 @@
+.leaves {
+    position: absolute;
+    display: block;
+    background-color: #48773c;
+    width: 75px;
+    height: 60px;
+    border-radius: 10px;
+    z-index: 999;
+    transform: rotateZ(-45deg);
+    top: 120px;
+    left: 66px;
+    overflow: hidden;
+    box-shadow: -1px 1px 0 0 #3c6a30, -2px 2px 0 0 #3c6a30, -3px 3px 0 0 #3c6a30, -4px 4px 0 0 #3c6a30, -5px 5px 0 0 #3c6a30, -6px 6px 0 0 #3c6a30, -7px 7px 0 0 #3c6a30, -8px 8px 0 0 #3c6a30, -9px 9px 0 0 #3c6a30, -10px 10px 0 0 #3c6a30;
+}
+
+.leaves.night {
+    filter: brightness(50%);
+}
+
+.wood {
+    position: absolute;
+    display: block;
+    background-color: #462512;
+    content: '';
+    width: 4px;
+    height: 25px;
+    z-index: 998;
+    border-radius: 2px;
+    top: 174px;
+    left: 76px;
+    box-shadow: -10px -10px 0 0 #462512, 10px 10px 0 0 #462512, 20px 20px 0 0 #462512, 30px 10px 0 0 #462512, 40px 0px 0 0 #462512, 50px -10px 0 0 #462512, 60px -20px 0 0 #462512;
+}
+
+.wood.night {
+    filter: brightness(50%);
+}

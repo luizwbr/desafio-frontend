@@ -1,0 +1,13 @@
+.window {
+    cursor: pointer;
+    background-color: #000;  
+    margin: 4px;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    -o-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+}
+
+.lightOn {
+    background-color: #fff;
+}

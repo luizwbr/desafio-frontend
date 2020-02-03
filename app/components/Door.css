@@ -1,0 +1,28 @@
+.backDoor {
+    background-color: #333;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    right: 0px;
+}
+
+.door {
+    cursor: pointer;
+    background-color: brown;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    transform-origin: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.door.night {
+    filter: brightness(50%);
+}
+
+.doorOpen {
+    transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}

@@ -1,0 +1,31 @@
+.road {
+    position: absolute;
+    display: block;
+    background-color: #989899;
+    width: 40px;
+    height: 200px;
+    transform: rotateZ(45deg);
+    top: 0px;
+    left: 80px;
+    z-index: -998;
+}
+
+.road:after {
+    position: absolute;
+    display: block;
+    content: '';
+    background-color: #989899;
+    width: 30px;
+    height: 200px;
+    transform: rotateZ(90deg);
+    top: -15px;
+    left: 5px;
+    z-index: -998;
+}
+
+.road.night {
+    background: #383838;
+}
+.road.night:after {
+    background: #383838;
+}

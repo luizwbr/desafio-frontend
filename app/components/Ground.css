@@ -1,0 +1,59 @@
+.ground {
+    position: absolute;
+    display: block;
+    background-color: #cac4ae;
+    width: 200px;
+    height: 200px;
+    transform: rotateZ(45deg);
+    z-index: -999;
+}
+
+.ground.night {
+    filter: brightness(20%);
+}
+
+.ground div:first-child {
+    position: absolute;
+    display: block;
+    background-color: #83a75f;
+    width: 70px;
+    height: 90px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -998;
+}
+
+.ground div:nth-child(2) {
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 60px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+    z-index: -998;
+}
+
+.ground div:nth-child(3) {
+    position: absolute;
+    display: block;
+    background-color: #b2ab93;
+    width: 10px;
+    height: 200px;
+    top: 5px;
+    right: -10px;
+    z-index: -998;
+    transform: skewY(45deg);
+}
+
+.ground div:nth-child(4) {
+    position: absolute;
+    display: block;
+    background-color: #d5cfba;
+    width: 200px;
+    height: 10px;
+    top: 200px;
+    right: -5px;
+    z-index: -998;
+    transform: skewX(45deg);
+}

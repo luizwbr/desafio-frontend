@@ -1,0 +1,104 @@
+.ground-cropped {
+    position: absolute;
+    display: block;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    transform: rotateZ(45deg);
+    z-index: -997;
+    overflow: hidden;
+}
+
+.car-one {
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 7px;
+    top: 86px;
+    left: 200px;
+    box-shadow: 2px 2px 0 0 #333;
+    z-index: -998;
+}
+
+.car-one.red.night {
+    box-shadow: -18px 0px 8px 2px #f8ff26;
+}
+
+.car-one.red {
+    background-color: #c52735;
+    animation: red-car 9s linear infinite;
+}
+
+@keyframes red-car {
+    0% {
+        top: 73px;
+        left: 420px;
+    }
+    100% {
+        top: 73px;
+        left: -180px;
+    }
+}
+
+.car-one.blue {
+    background-color: #2d6398;
+    animation: blue-car 9s linear infinite;
+}
+
+.car-one.blue.night {
+    box-shadow: 18px 0px 8px 2px #f8ff26;
+}
+
+@keyframes blue-car {
+    0% {
+        top: 86px;
+        left: -180px;
+    }
+    100% {
+        top: 86px;
+        left: 420px;
+    }
+}
+
+.car-two {
+    position: absolute;
+    display: block;
+    width: 7px;
+    height: 15px;
+    top: -100px;
+    left: 85px;
+    box-shadow: 2px 2px 0 0 #333;
+    z-index: -998;
+}
+
+.car-two.black {
+    background-color: #7d7d7d;
+    animation: black-car 9s ease infinite;
+}
+
+.car-two.black.night {
+    box-shadow: 0px 18px 8px 2px #f8ff26;
+}
+
+@keyframes black-car {
+    0% {
+        top: -50px;
+        left: 85px;
+    }
+    35% {
+        top: 37px;
+        left: 85px;
+    }
+    62% {
+        top: 37px;
+        left: 85px;
+    }
+    65% {
+        top: 34px;
+        left: 85px;
+    }
+    100% {
+        top: 280px;
+        left: 85px;
+    }
+}
