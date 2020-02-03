@@ -14,3 +14,10 @@ Usar a Sunset Sunrise API para mudar a cena dependendo se está noite ou dia (ht
 * Qualidade do código
 * Qualidade de UI/UX
 * Documentação e entrega do projeto
+
+
+## Resultado:
+
+![alt text](https://i.imgur.com/iwaHt2f.png "Resultado final")
+
+
