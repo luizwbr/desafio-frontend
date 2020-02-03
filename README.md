@@ -1,7 +1,9 @@
 # Desafio Frontend
 
 Com ReactJS e as bibliotecas da sua escolha, construir a seguinte cena: fazer um div "prédio" que contém alguns divs "janelas". 
+
 Ao clicar nas janelas o usuário liga e desliga as luzes das janelas. Do lado, um botão geral permite ligar e desligar todas as luzes das janelas. 
+
 Usar a Sunset Sunrise API para mudar a cena dependendo se está noite ou dia (https://sunrise-sunset.org/api).
 
 ## Pontos de avaliação:
